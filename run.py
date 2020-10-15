@@ -1,16 +1,12 @@
 import sys
-import os
-import json
-
 sys.dont_write_bytecode = True
-
-credentials_file = open('../credentials.json',)
-credentials = json.load(credentials_file)['postgres']
 
 app_label = 'introspective_admin'
 
+import os
 from django.conf import settings
 from django.contrib import admin
+from credentials import credentials
 
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
@@ -129,7 +125,7 @@ for model in app_models:
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', admin.site.urls),
 ]
 
 if __name__ == "__main__":
