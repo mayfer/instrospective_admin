@@ -11,3 +11,5 @@ All you need for configuration is database settings.
 4. Run `python run.py` (or alternatively `python run.py runserver 0.0.0.0:8000`)
 
 Voila, you should now be able to view your entire database in a Django Admin Panel.
+
+After that, you can customize the admin panel via normal methods by editing `admin_panel.py`.
