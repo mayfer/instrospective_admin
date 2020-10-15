@@ -23,7 +23,7 @@ settings.configure(
     ),
     DATABASES={
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': credentials['engine'],
             'NAME': credentials['database'],
             'USER': credentials['user'],
             'PASSWORD': credentials['password'],
