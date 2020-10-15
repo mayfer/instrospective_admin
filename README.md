@@ -1,6 +1,6 @@
 # Introspective Django Admin Panel
 
-This is a re-usable Django Admin Panel. It generates all models on-the-fly from your existing database tables.
+This is a re-usable Django Admin Panel. It auto-generates all models on-the-fly from your existing database tables.
 
 All you need for configuration is database settings.
 
