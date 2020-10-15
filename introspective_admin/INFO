@@ -1,0 +1,7 @@
+this folder is intentionally left blank
+
+silly django requires an "app" to be installed to work with database models. apparently this is an "app". once I added this folder, django was satisfied.
+
+do you like my "app"?
+
+if you like my "app", please say hello at contact@probablymurat.com where we can talk about apps.
